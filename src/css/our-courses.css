@@ -1,0 +1,56 @@
+:root {
+  --bg-color: #121212;
+  --main-text-color: #ffffff;
+  --title-accent-color: #bea69e;
+  --number-color: rgba(255, 255, 255, 0.4);
+  --pragraph-color: rgba(255, 255, 255, 0.5);
+}
+
+.courses-sec {
+  background-color: var(--bg-color);
+  margin-bottom: 80px;
+}
+
+.container {
+  max-width: 375px;
+  padding: 0 20px;
+}
+
+.courses-title {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  margin-bottom: 20px;
+}
+
+.courses-title:first-child {
+  letter-spacing: -0.04em;
+}
+
+.accent {
+  color: var(--title-accent-color);
+}
+
+.courses-text {
+  color: var(--main-text-color);
+
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+
+.number-wrap {
+  margin-bottom: 28px;
+}
+
+.number {
+  color: var(--number-color);
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
