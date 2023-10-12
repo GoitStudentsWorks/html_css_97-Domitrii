@@ -1,0 +1,157 @@
+.hero {
+    padding: 80px 0 150px;
+    display: flex;
+}
+
+.hero-main-block {
+    padding: 80px 100px 0 50px;
+    border-radius: 30px;
+    background: #1D1D1D;
+    display: flex;
+    margin: 0 auto;
+}
+
+.hero-img {
+    width: 397px;
+    height: 520px;
+    background-color: #1D1D1D;
+}
+
+.hero-info {
+    width: 563px;
+    color: #fff;
+    margin-right: 130px;
+}
+
+.hero-title {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1.06;
+    letter-spacing: -2.56px;
+    margin-bottom: 20px;
+}
+
+.hero-title-italic {
+    color: #BEA69E;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.06;
+    letter-spacing: -2.56px;
+}
+
+.hero-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28; 
+    letter-spacing: -0.28px;
+    margin-bottom: 136px;
+    width: 418px;
+}
+
+.hero-block {
+    display: flex;
+    width: 390px;
+}
+
+.hero-block-imgs {
+    position: relative;
+    height: 54px;
+    width: 135px;
+    display: flex;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.hero-photo {
+    position: absolute;
+    z-index: 999;
+}
+
+.hero-img-2 {
+    left: 40px;
+    z-index: 998;
+}
+
+.hero-img-3 {
+    left: 80px;
+    z-index: 997;
+}
+
+.hero-block-rev {
+    display: flex;
+}
+
+.hero-block-students {
+    width: 82px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.hero-happy-stud {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.64px;
+}
+
+.icon-arrow {
+    fill: #fff;
+}
+
+.hero-rev-icon {
+    fill: #BEA69E;
+    stroke: #121212;
+}
+
+.hero-vector-block {
+    width: 50px;
+    height: 50px;
+    background-color: #BEA69E;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-block-rev {
+    gap: 12px;
+    cursor: pointer;
+}
+
+.hero-rev-accounting {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-rev {
+    color: rgba(255, 255, 255, 0.50);
+    font-weight: 400;
+    line-height: 1.25; 
+    letter-spacing: -0.64px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+
+    .hero-main-block {
+        padding-right: 50px;
+    }
+
+    .hero-info {
+        margin-right: 20px;
+    }
+}
