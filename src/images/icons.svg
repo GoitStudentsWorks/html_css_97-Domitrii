@@ -16,5 +16,8 @@
 <symbol id="icon-Vector" viewBox="0 0 34 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.8235" d="M16.941 1.882l4.653 9.293 10.406 1.499-7.529 7.229 1.777 10.213-9.306-4.825-9.306 4.825 1.777-10.213-7.529-7.229 10.406-1.499 4.653-9.293z"></path>
 </symbol>
+<symbol id="icon-Arrow" viewBox="0 0 64 32">
+<path d="M44.444 0l19.556 15.396-19.556 15.396v-12.729h-44.444v-5.333h44.444v-12.729z"></path>
+</symbol>
 </defs>
 </svg>
