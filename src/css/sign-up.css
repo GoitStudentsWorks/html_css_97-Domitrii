@@ -193,6 +193,61 @@
         padding: 80px 20px;
     }
     .form {
+        max-width: 480px;
+    }
+    .sign-up-form {
+        width: 480px;
+    }
+    .title {
+        color: #BEA69E;
+        font-family: DM Sans;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.12;
+        letter-spacing: -0.04em;
+    }
+    .title-accent {
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.12;
+        letter-spacing: -0.04em;
+    }
+    .text {
+        width: 480px
+    }
+    .form-text {
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+    }
+    .form-field {
+        margin-bottom: 14px;
+    }
+    .form-input {
+        height: 60px;
+        padding: 18px 20px;
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+    .form-textarea {
+        height: 119px;
+        padding: 18px 20px;
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+    .form-button-title {
+        font-size: 18px;
+        line-height: 1.55;
+    }
+    .form-policy {
         width: 480px;
     }
     .policy-text {
