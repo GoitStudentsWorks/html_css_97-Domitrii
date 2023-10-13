@@ -157,5 +157,43 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .hero-main-block {
+        flex-direction: column;
+        padding: 50px 155px 0 32px;
+    }
+
+    .hero-title {
+        font-size: 60px;
+        line-height: 1.06; 
+        letter-spacing: -2.4px;
+    }
+
+    .hero-title-italic {
+        font-size: 60px;
+        line-height: 64px;
+        letter-spacing: -2.4px;
+    }
+
+    .hero-subtitle {
+        margin-bottom: 40px;
+    }
+
+    .hero-info {
+        margin-right: 0;
+        width: 517px;
+    }
+
+    .hero-block {
+        margin-bottom: 46px;
+    }
+
+    .hero-img {
+        margin-left: 123px ;
+        width: 393px;
+        height: 434px;
+    }
+}
+
+@media screen and (min-width: 375px) {
     
 }
