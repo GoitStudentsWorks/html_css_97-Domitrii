@@ -30,14 +30,14 @@ img {
 
 .container {
   width: 1440px;
-  margin: 0 auto;
-  padding: 0 100px;
 }
 
 .reviews-section {
   background-color: var(--background-color);
   font-family: DM Sans;
   color: var(--text-color);
+  margin: 0 auto;
+  padding: 150px 100px;
 }
 
 .reviews-head {
@@ -53,6 +53,7 @@ img {
   position: fixed;
   display: flex;
   gap: 20px;
+  width: 1240px;
 }
 
 .reviews-item {
@@ -122,7 +123,7 @@ img {
 }
 
 .reviews-icon-pink {
-  fill: var(--background-color);
+  fill: var(--color-icon-pink);
   width: 20px;
   height: 20px;
   right: 20px;
