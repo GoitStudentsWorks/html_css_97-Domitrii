@@ -1,11 +1,135 @@
 .footer {
-padding: 50px 100px 25px;
+  padding: 50px 100px 25px;
+  width: 1440px;
+  /* height: 331px; */
+  background-color: black;
+  
 }
 
-h1, h2, h3, h4, h5, h6, p, li, ul { 
-  margin: 0; 
+h3, p {
+  color: #fff;
 }
+
 
 .focus-frame {
-  color: blue;
+  padding-bottom: 25px;
+  font-weight: 900;
+}
+
+.telephone {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  text-transform: uppercase;
+}
+
+.ukraine {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.button-footer {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  border: none;
+  background: #1D1D1D;
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.label-footer {
+  padding-right: 16px;
+}
+
+
+.input-footer {
+  padding: 20px 78px 20px 18px;
+  width: 216px;
+  height: 60px;
+  border-radius: 12px;
+  background: #FFF;
+  border: none;
+  color: #121212;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  outline: none;
+}
+
+.block-centr {
+  margin-left: 100px;
+  display: flex;
+  gap: 100px;
+}
+
+.social-li {
+  padding-bottom: 20px;
+}
+
+.social-link {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  
+}
+
+.menu-link {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+
+.down-footer {
+  padding-top: 133px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.link-check {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.public {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.all-right-reserved {
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
 }
