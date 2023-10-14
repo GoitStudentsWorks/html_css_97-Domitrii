@@ -1,6 +1,5 @@
-.mentors-section {}
-
-.container {}
+.mentors-section {
+  background: #121212;}
 
 .mentors-title {
     color: #FFF;
@@ -25,9 +24,6 @@
 .mentors-photo {
     margin-bottom: 16px;
 }
-
-.mentors-info {}
-
 .mentors-name {
     color: #FFF;
     text-align: center;
