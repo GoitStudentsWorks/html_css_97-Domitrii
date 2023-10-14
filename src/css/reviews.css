@@ -2,6 +2,7 @@
   --text-color: #fff;
   --background-color: #000;
   --color-icon-pink: #bea69e;
+  --color-icon-grey: #414141;
 }
 body {
   background-color: #000;
@@ -50,7 +51,6 @@ img {
 }
 
 .reviews-list {
-  position: fixed;
   display: flex;
   gap: 20px;
   width: 1240px;
@@ -117,6 +117,7 @@ img {
 } */
 
 .reviews-icon {
+  fill: var(--color-icon-grey);
   width: 20px;
   height: 20px;
   right: 20px;
