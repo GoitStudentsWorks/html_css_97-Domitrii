@@ -32,8 +32,6 @@ img {
   font-family: DM Sans;
   color: var(--text-color);
   width: 1440px;
-  margin: 0 auto;
-  padding: 0 100px;
 }
 
 .reviews-head {
@@ -46,6 +44,7 @@ img {
 }
 
 .reviews-list {
+  position: fixed;
   display: flex;
   gap: 20px;
 }
@@ -60,16 +59,20 @@ img {
   padding: 20px;
 }
 
+.reviews-div {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
 .reviews-image {
   border-radius: 100px;
 }
 
 .reviews-div-head {
   display: flex;
-}
-
-.reviews-div {
-  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .reviews-head-student {
@@ -91,4 +94,11 @@ img {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
+}
+
+.reviews-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 20px;
 }
