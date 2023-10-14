@@ -1,6 +1,7 @@
 :root {
   --text-color: #fff;
   --background-color: #000;
+  --color-icon-pink: #bea69e;
 }
 body {
   background-color: #000;
@@ -27,11 +28,16 @@ img {
   height: auto;
 }
 
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
 .reviews-section {
   background-color: var(--background-color);
   font-family: DM Sans;
   color: var(--text-color);
-  width: 1440px;
 }
 
 .reviews-head {
@@ -96,8 +102,27 @@ img {
   letter-spacing: -0.02em;
 }
 
+.reviews-icon-div {
+  margin-left: auto;
+}
+
+.reviews-icon-list {
+  display: flex;
+  gap: 4px;
+}
+
+/* .reviews-icon-item {
+  background-color: var(--color-icon-pink);
+} */
+
 .reviews-icon {
-  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 20px;
+}
+
+.reviews-icon-pink {
+  fill: var(--color-icon-pink);
   width: 20px;
   height: 20px;
   right: 20px;
