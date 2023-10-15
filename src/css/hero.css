@@ -29,7 +29,7 @@
     line-height: 1.06;
     letter-spacing: -2.56px;
     margin-bottom: 20px;
-    width: 545px;
+    max-width: 545px;
 }
 
 .hero-title-italic {
