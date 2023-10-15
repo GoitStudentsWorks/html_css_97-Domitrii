@@ -1,6 +1,8 @@
 .footer {
   padding: 50px 100px 25px;
   width: 1440px;
+  display: flex;
+  flex-direction: column;
   /* height: 331px; */
   background-color: black;
   background-image:url(/images/Graphic.png);
@@ -10,9 +12,11 @@ h3, p {
   color: #fff;
 }
 
+.focus-frame-a {
+  margin-bottom: 25px;
+}
 
 .focus-frame {
-  padding-bottom: 25px;
   font-weight: 900;
 }
 
@@ -26,7 +30,7 @@ h3, p {
 }
 
 .ukraine {
-  padding-top: 10px;
+  margin-top: 10px;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
