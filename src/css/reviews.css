@@ -4,30 +4,6 @@
   --color-icon-pink: #bea69e;
   --color-icon-grey: #414141;
 }
-body {
-  background-color: #000;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 
 .container {
   padding: 150px 0;
@@ -64,7 +40,9 @@ img {
 
 @media screen and (max-width: 768px) {
   .reviews-section {
+    width: 320px;
     padding: 0 20px;
+    margin: 0 auto;
   }
 }
 
@@ -92,6 +70,12 @@ img {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .reviews-item {
+    width: 335px;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .reviews-item:last-child {
     display: none;
@@ -108,6 +92,12 @@ img {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .reviews-div {
+    flex-wrap: wrap;
+  }
 }
 
 .reviews-image {
@@ -145,14 +135,16 @@ img {
   margin-left: auto;
 }
 
+@media screen and (max-width: 768px) {
+  .reviews-icon-div {
+    margin: 0 auto;
+  }
+}
+
 .reviews-icon-list {
   display: flex;
   gap: 4px;
 }
-
-/* .reviews-icon-item {
-  background-color: var(--color-icon-pink);
-} */
 
 .reviews-icon {
   fill: var(--color-icon-grey);
