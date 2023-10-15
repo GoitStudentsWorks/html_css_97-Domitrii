@@ -30,7 +30,19 @@ img {
 }
 
 .container {
-  width: 1440px;
+  padding: 150px 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .container {
+    padding: 100px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 80px 0;
+  }
 }
 
 .reviews-section {
@@ -38,7 +50,22 @@ img {
   font-family: DM Sans;
   color: var(--text-color);
   margin: 0 auto;
-  padding: 150px 100px;
+  width: 1440px;
+  padding: 0 100px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .reviews-section {
+    width: 768px;
+    padding: 0 64px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reviews-section {
+    padding: 0 20px;
+  }
 }
 
 .reviews-head {
@@ -46,18 +73,29 @@ img {
   font-weight: 500;
   line-height: 1.13;
   letter-spacing: -0.04em;
-  text-align: left;
   margin-bottom: 50px;
+  width: 171px;
 }
 
 .reviews-list {
   display: flex;
   gap: 20px;
-  width: 1240px;
 }
 
 .reviews-item {
   flex-basis: calc((100%-20px) / 2);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .reviews-item {
+    width: 704px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .reviews-item:last-child {
+    display: none;
+  }
 }
 
 .reviews-article {
