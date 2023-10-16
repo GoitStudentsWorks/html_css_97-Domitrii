@@ -197,9 +197,10 @@
   fill: #BEA69E66;
 }
 svg.header-camera:hover, 
-svg.header-camera:active, {
-  fill: ##BEA69E;
+svg.header-camera:active {
+  fill: #BEA69E;
 }
+
 @media screen and (min-width: 768px) {
   .header-camera, .header-camera-link {
     display: none;
