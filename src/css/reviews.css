@@ -5,29 +5,28 @@
   --color-icon-grey: #414141;
 }
 
-.container {
+.cont {
   padding: 150px 0;
   background-color: var(--background-color);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
-  .container {
+  .cont {
     padding: 100px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .container {
+  .cont {
     padding: 80px 0;
   }
 }
 
 .reviews-section {
-  background-color: var(--background-color);
   font-family: DM Sans;
   color: var(--text-color);
   margin: 0 auto;
-  width: 1440px;
+  width: 1240px;
   padding: 0 100px;
 }
 
@@ -89,6 +88,12 @@
   padding: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .reviews-article {
+    width: 335px;
+  }
+}
+
 .reviews-div {
   display: flex;
   gap: 10px;
@@ -138,7 +143,7 @@
 
 @media screen and (max-width: 768px) {
   .reviews-icon-div {
-    margin: 0 auto;
+    margin: 0 auto 0 64px;
   }
 }
 
