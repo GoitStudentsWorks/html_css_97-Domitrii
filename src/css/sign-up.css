@@ -162,7 +162,7 @@
     display: flex;
     gap: 20px;
 }
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 1279px) {
     .section-pictures {
         display: none;
     }
@@ -192,17 +192,21 @@
 
                 /* Tablet */
 
-@media only screen and (min-width: 375px) and (max-width: 767px) {
-    .sing-up {
-        padding-top: 100px;
-        padding-left: 32px;
-        padding-bottom: 100px;
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .sign-up {
+        margin: 0 auto;
+        min-width: 320px;
     }
+
+    .sign-up-container {
+        padding: 0;
+    }
+
     .form {
         max-width: 480px;
     }
     .sign-up-form {
-        width: 480px;
+        width: 335px;
     }
     .title {
         color: #BEA69E;
@@ -229,6 +233,7 @@
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: -0.02em;
+        width: 335px;
     }
     .form-field {
         margin-bottom: 14px;
@@ -261,6 +266,7 @@
         font-family: DM Sans;
         font-size: 14px;
         line-height: 1.28;
+        width: 335px;
     }
     
     .link-policy {
@@ -271,82 +277,26 @@
         line-height: 1.28;
         text-decoration-line: underline;
     }
+
+    .form-button {
+        padding: 14px 0;
+    }
 } 
   
 
                          /* Mobile */
 
-@media screen and (min-width: 320px) and (max-width: 374px) {
-    .sing-up {
-       padding: 80px 20px;
+
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .sign-up {
+        width: 768px;
+        margin: 0 auto;
+        justify-content: start;
+        padding: 0 0 0 32px;
     }
-    .form {
-        width: 335px;
-    }
-    .sign-up-form {
-        width: 335px;
-    }
-    .title {
-        color: #BEA69E;
-        font-family: DM Sans;
-        font-size: 28px;
-        font-weight: 500;
-        line-height: 1.14;
-        letter-spacing: -0.04em;
-    }
-    .title-accent {
-        color: #FFF;
-        font-family: DM Sans;
-        font-size: 28px;
-        font-weight: 500;
-        line-height: 1.14;
-        letter-spacing: -0.04em;
-    }
-    .text {
-        width: 295px
-    }
-    .form-text {
-        color: #FFF;
-        font-family: DM Sans;
-        font-size: 14px;
-        line-height: 1.28;
-        letter-spacing: -0.02em;
-    }
-    .form-field {
-        margin-bottom: 8px;
-    }
-    .form-input {
-        height: 46px;
-        padding: 18px 14px;
-        color: #FFF;
-        font-family: DM Sans;
-        font-size: 14px;
-        line-height: 1.28;
-    }
-    .form-textarea {
-        height: 112px;
-        padding: 18px 14px;
-        color: #FFF;
-        font-family: DM Sans;
-        font-size: 14px;
-        line-height: 1.28;
-    }
-    .form-button {
-        padding: 14px 127px;
-    }
-    .form-button-title {
-        font-size: 16px;
-        line-height: 1.25;
-    }
-    .form-policy {
-        width: 335px;
-    }
-    .policy-text {
-        font-size: 12px;
-        line-height: 1.33;
-    }
-    .link-policy {
-        font-size: 11.5px;
-        line-height: 1.33;
+
+    .sign-up-container {
+        padding: 0;
     }
 }
