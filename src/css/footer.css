@@ -1,11 +1,15 @@
 .footer {
-  padding: 50px 100px 25px;
-  width: 1440px;
+  padding: 50px 0 25px;
   display: flex;
   flex-direction: column;
-  /* height: 331px; */
   background-color: black;
   background-image:url(/images/Graphic.png);
+}
+
+.foot-main-cont {
+  padding: 0 100px;
+  margin: 0 auto;
+  width: 1440px;
 }
 
 h3, p {
@@ -14,6 +18,7 @@ h3, p {
 
 .focus-frame-a {
   margin-bottom: 25px;
+  fill: #FFF;
 }
 
 .focus-frame {
@@ -41,8 +46,6 @@ h3, p {
 .container-footer {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  align-content: center;
 }
 
 .button-footer {
@@ -58,10 +61,6 @@ h3, p {
   font-weight: 400;
   line-height: 120%;
 }
-.label-footer {
-  
-}
-
 
 .input-footer {
   padding: 20px 78px 20px 18px;
@@ -80,7 +79,6 @@ h3, p {
 }
 
 .block-centr {
-  margin-left: 100px;
   display: flex;
   gap: 100px;
 }
@@ -112,7 +110,7 @@ h3, p {
 
 
 .down-footer {
-  padding-top: 133px;
+  margin-top: 50px;
   display: flex;
   align-content: center;
   justify-content: space-between;
@@ -139,4 +137,79 @@ h3, p {
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .foot-main-cont {
+    width: 1278px;
+  }
+
+  .block-centr {
+    gap: 50px;
+  }
+
+  .down-footer {
+    padding: 0;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .foot-main-cont {
+    width: 768px;
+  }
+
+  .block-centr {
+    gap: 25px;
+  }
+
+  .foot-main-cont {
+    padding: 0;
+  }
+
+  .down-footer {
+    padding: 0;
+    margin-top: 74px;
+  }
+
+  .input-footer {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .foot-main-cont {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-footer {
+    margin-right: 8px;
+  }
+
+  .focus-frame-a {
+    margin-bottom: 16px;
+  }
+
+  .left-p-address {
+    margin-bottom: 40px;
+  }
+
+  .social-ul {
+    gap: 14px;
+  }
+
+  .block-centr {
+    gap: 40px;
+    width: 221px;
+    margin-bottom: 75px;
+  }
+
 }
