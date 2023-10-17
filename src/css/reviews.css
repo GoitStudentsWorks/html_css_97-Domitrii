@@ -6,17 +6,16 @@
 }
 
 .cont {
-  padding: 150px 0;
-  background-color: var(--background-color);
+  padding-bottom: 150px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .cont {
     padding: 100px 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cont {
     padding: 80px 0;
   }
@@ -27,10 +26,9 @@
   color: var(--text-color);
   margin: 0 auto;
   width: 1240px;
-  padding: 0 100px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .reviews-section {
     width: 768px;
     padding: 0 64px;
@@ -38,7 +36,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .reviews-section {
     width: 320px;
     padding: 0 20px;
@@ -64,19 +62,19 @@
   flex-basis: calc((100%-20px) / 2);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .reviews-item {
     width: 704px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .reviews-item {
     width: 335px;
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .reviews-item:last-child {
     display: none;
   }
@@ -88,7 +86,7 @@
   padding: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .reviews-article {
     width: 335px;
   }
@@ -100,7 +98,7 @@
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .reviews-div {
     flex-wrap: wrap;
   }
@@ -141,7 +139,7 @@
   margin-left: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .reviews-icon-div {
     margin: 0 auto 0 64px;
   }
@@ -164,4 +162,43 @@
   width: 20px;
   height: 20px;
   right: 20px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  
+  .reviews-list {
+    width: 1080px;
+  }
+
+  .reviews-article {
+    width: 530px;
+  }
+
+  .article-one {
+    padding-bottom: 40px;
+  }
+
+  .reviews-section {
+    width: 1080px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+  .reviews-article {
+    width: 640px;
+    margin: 0 auto;
+  }
+
+  .reviews-section {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 767px) {
+  .reviews-section {
+    padding: 0;
+    width: 335px;
+  }
 }

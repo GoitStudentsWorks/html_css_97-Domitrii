@@ -9,3 +9,14 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 @import url('./modal.css');
+
+.cont-header-hero {
+    background-image: url("../images/Graph.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 1440px 910px;
+}
+
+body {
+    background-color: #121212;
+}
