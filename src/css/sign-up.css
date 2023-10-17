@@ -181,13 +181,15 @@
     border-radius: 1000px;
     background: #BEA69E;
 }
+.photo {
+    width: 100vw;
+    position: relative;
+    left: -15%;
+    top: 5%;
+}
 @media only screen and (min-width: 1280px) and (max-width: 1439px) {
     .camera-lens {
         width: 180px;
-    }
-    .photo {
-        width: 150px;
-        height: 142px;
     }
 }
 .photocamera {
