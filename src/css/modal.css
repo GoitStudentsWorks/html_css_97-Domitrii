@@ -121,8 +121,9 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  transition: font-weight 0.25s ease-in-out;
 }
   
-.accented {
+.menu-link:hover {
   font-weight: 700;
 }
