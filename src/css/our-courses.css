@@ -182,10 +182,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-wrap:hover,
+.icon-wrap:focus {
+  background-color: #BEA69E;
 }
 
 .courses-icon {
   fill: #777777;
+}
+
+.icon-wrap:hover .courses-icon {
+  fill: #fff;
+}
+
+.icon-wrap:focus .courses-icon {
+  fill: #fff;
 }
 
 .courses-title {
