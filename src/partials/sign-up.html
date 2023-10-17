@@ -57,24 +57,29 @@
     </div>
     <div class="section-pictures">
       <div class="camera-lens">
-        <img
-          class="photo"
-          srcset="./images/sign-up-item.png 1x, ./images/sign-up-item@2x.png 2x"
-          src="./images/sign-up-item.png"
-          alt="camera"
-          width="163px"
-          height="154px"
-        />
+        <picture>
+          <source
+            srcset="./images/sign-up-item.png 1x, ./images/sign-up-item@2x.png 2x"
+            type="image/png"
+          />
+          <img
+            class="photo"
+            src="./images/sign-up-item.png"
+            alt="camera"
+            width="163"
+            height="154"
+          />
+        </picture>        
       </div>
       <div class="photocamera">
-        <img
-          class="cam-picture"
-          srcset="./images/sign-up-cam.png 1x, ./images/sign-up-cam@2x.png 2x"
-          src="./images/sign-up-cam.png"
-          alt="photocamera"
-          width="254px"
-          height="313px"
-        />
+        <picture>
+          <source srcset="./images/sign-up-cam.png 1x, ./images/sign-up-cam@2x.png 2x">
+          <img
+            class="cam-picture"
+            src="./images/sign-up-cam.png"
+            alt="photocamera"
+          />
+        </picture>
       </div>
     </div>
   </div>

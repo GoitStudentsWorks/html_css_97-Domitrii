@@ -10,9 +10,85 @@
             <div class="hero-block">
                 <div class="hero-happy-block">
                     <div class="hero-block-imgs" href="#reviews">
-                        <img src="/images/hero-3.png" alt="" class="hero-photo">
-                        <img src="/images/hero-2.png" alt="" class="hero-photo hero-img-2">
-                        <img src="/images/hero-1.png" alt="" class="hero-photo hero-img-3">
+                        <picture>
+                            <!-- Desktop screen (min-width: 1280px) -->
+                            <source
+                              media="(min-width: 1280px)"
+                              srcset="./images/hero-3.png"
+                              type="image/png"
+                            />
+                            <!-- Tablet screen (min-width: 768px) -->
+                            <source
+                              media="(min-width: 768px)"
+                              srcset="./images/hero-3.png"
+                              type="image/png"
+                            />
+                            <!-- Mobile screen (max-width: 767px) -->
+                            <source
+                              media="(max-width: 767px)"
+                              srcset="./images/hero-3.png"
+                              type="image/png"
+                            />
+                            <img
+                              class="hero-photo"
+                              src="./images/hero-3.png"
+                              alt="Герой"
+                              loading="lazy"
+                            />
+                          </picture>
+                          <picture>
+                            <!-- Desktop screen (min-width: 1280px) -->
+                            <source
+                              media="(min-width: 1280px)"
+                              srcset="./images/hero-2.png"
+                              type="image/png"
+                            />
+                            <!-- Tablet screen (min-width: 768px) -->
+                            <source
+                              media="(min-width: 768px)"
+                              srcset="./images/hero-2.png"
+                              type="image/png"
+                            />
+                            <!-- Mobile screen (max-width: 767px) -->
+                            <source
+                              media="(max-width: 767px)"
+                              srcset="./images/hero-2.png"
+                              type="image/png"
+                            />
+                            <img
+                              class="hero-photo hero-img-2"
+                              src="./images/hero-2.png"
+                              alt="hero-img"
+                              loading="lazy"
+                            />
+                          </picture>
+                          
+                          <picture>
+                            <!-- Desktop screen (min-width: 1280px) -->
+                            <source
+                              media="(min-width: 1280px)"
+                              srcset="./images/hero-1.png"
+                              type="image/png"
+                            />
+                            <!-- Tablet screen (min-width: 768px) -->
+                            <source
+                              media="(min-width: 768px)"
+                              srcset="./images/hero-1.png"
+                              type="image/png"
+                            />
+                            <!-- Mobile screen (max-width: 767px) -->
+                            <source
+                              media="(max-width: 767px)"
+                              srcset="./images/hero-1.png"
+                              type="image/png"
+                            />
+                            <img
+                              class="hero-photo hero-img-3"
+                              src="./images/hero-1.png"
+                              alt=""
+                              loading="lazy"
+                            />
+                          </picture>                          
                     </div>
                     <a class="hero-block-students" href="#reviews-section">
                         <p class="hero-happy-stud">
@@ -36,6 +112,10 @@
                 </div>
             </div>
         </div>
-        <img src="/images/hero.png" alt="" class="hero-img" />
+        <picture>
+            <source srcset="/images/hero.png" type="image/png">
+            <img src="/images/hero.png" alt="" class="hero-img" loading="lazy">
+          </picture>
+          
     </div>
 </div>

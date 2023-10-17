@@ -231,7 +231,7 @@
     }
     .hero-img {
         width: 259px;
-        height: 314px;
+        max-height: 314px;
         margin: 0 auto;
     }
     .hero-main-block {
@@ -245,5 +245,9 @@
 
     .hero {
         padding: 20px 0 80px;
+    }
+
+    .hero-block {
+        width: auto;
     }
 }
