@@ -242,4 +242,8 @@
         margin-right: 0;
         max-width: 295px;
     }
+
+    .hero {
+        padding: 20px 0 80px;
+    }
 }
