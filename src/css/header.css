@@ -222,3 +222,6 @@ svg.header-camera:active {
     display: none;
   }
 }
+button#openButton {
+  display: contents;
+}
